@@ -116,10 +116,10 @@ print:
 ;    outsw              ; 'o'
 ;    jc 0x7cab          ; 'rl'
 ;    and fs:[bx+si], ax ; 'd!', 0
-hello: db "Hello, World!", 0
+hello: db "Go fuck yourself", 0
 hello_end:
 
-goodbye: db "It's now safe to turn off your computer", 0
+goodbye: db "KYS", 0
 
 ; This line pads the size of this program to 510 bytes with zeroes.
 ; $ means "the address of this line"
